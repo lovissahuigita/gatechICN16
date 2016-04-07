@@ -5,6 +5,4 @@
     <title>Georgia Tech ICN 16 Ticketing</title>
 </head>
 
-
-
 <div id="header" class="page-header center-block" style="width:90%;"><h1><a style="color:#333;" href="index.php">Georgia Tech Indonesian Cultural Night Ticketing</a></h1></div>

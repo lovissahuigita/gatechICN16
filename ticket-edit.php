@@ -2,14 +2,18 @@
 <body>
 
 <div id="container" class="center-block pager" style="width:90%;">
-    <div id="content" class="center-block" style="width:30%;">
+    <div id="content" class="center-block" style="width:80%;">
 
         <div id="get-verifier-form" class="text-left">
+            <?php
+            echo '<a href="index.php">Home</a> || <a href="ticket-edit.php">Edit Sold Ticket</a> || <a href="check-in.php">Check-In</a>';
+            echo '<br/>&copy; Georgia Tech Indonesian Cultural Night<br/> ';
+            ?>
             <h2>Edit ticket</h2>
             <br><br>
             <form action="ticket-edit-submit.php" method="post">
                 <div class="form-group">
-                    <label for="id">Ticket ID</label>
+                    <label for="ticket_id_fr">Ticket ID (From)</label>
                     <?php
                     //query
                     // connect to db
@@ -18,7 +22,27 @@
 
                     $sql = mysql_query("SELECT Ticket_Number FROM Tickets");
                     if (mysql_num_rows($sql)) {
-                        $select = '<select name="ticket_id">';
+                        $select = '<select name="ticket_id_fr">';
+                        while ($rs = mysql_fetch_array($sql)) {
+                            $select .= '<option value="' . $rs['Ticket_Number'] . '">' . $rs['Ticket_Number'] . '</option>';
+                        }
+                    }
+                    $select .= '</select>';
+                    echo $select;
+                    ?>
+                </div>
+                <div class="form-group">
+                    <label for="ticket_id_fr">Ticket ID (To)</label>
+                    <?php
+                    //query
+                    // connect to db
+                    $connect = mysql_connect("176.32.230.251:3306", "cl57-lovissa", "Love041107");
+                    @mysql_select_db("cl57-lovissa") or die("Unable to select database");
+
+                    $sql = mysql_query("SELECT Ticket_Number FROM Tickets");
+                    if (mysql_num_rows($sql)) {
+                        $select = '<select name="ticket_id_to">';
+                        $select .= '<option value="default">default</option>';
                         while ($rs = mysql_fetch_array($sql)) {
                             $select .= '<option value="' . $rs['Ticket_Number'] . '">' . $rs['Ticket_Number'] . '</option>';
                         }
@@ -51,7 +75,6 @@
                 </div>
             </form>
         </div>
-        
     </div>
 </div>
 
