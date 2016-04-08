@@ -5,12 +5,6 @@
     <div id="content" class="center-block" style="width:80%;">
 
         <div id="get-verifier-form" class="text-left">
-            <?php
-            echo '<a href="index.php">Home</a> || <a href="ticket-edit.php">Edit Sold Ticket</a> || <a href="check-in.php">Check-In</a>';
-            echo '<br/>&copy; Georgia Tech Indonesian Cultural Night<br/> ';
-            ?>
-            <h2>Edit ticket</h2>
-            <br><br>
             <form action="ticket-edit-submit.php" method="post">
                 <div class="form-group">
                     <label for="ticket_id_fr">Ticket ID (From)</label>

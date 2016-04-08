@@ -3,15 +3,7 @@
 
 <div id="container" class="center-block pager" style="width:90%;">
     <div id="content" class="center-block" style="width:30%;">
-
-        <?php
-        echo '<a href="index.php">Home</a> || <a href="ticket-edit.php">Edit Sold Ticket</a> || <a href="check-in.php">Check-In</a>';
-        echo '<br/>&copy; Georgia Tech Indonesian Cultural Night<br/> ';
-        ?>
-
         <div id="get-verifier-form" class="text-left">
-            <h2>Check-In Ticket</h2>
-            <br><br>
             <form action="check-in-submit.php" method="post">
                 <div class="form-group">
                     <label for="id">Ticket ID</label>

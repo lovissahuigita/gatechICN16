@@ -6,9 +6,6 @@
 
         <?php
 
-        echo '<a href="index.php">Home</a> || <a href="ticket-edit.php">Edit Sold Ticket</a> || <a href="check-in.php">Check-In</a>';
-        echo '<br/>&copy; Georgia Tech Indonesian Cultural Night<br/> ';
-        
         $connect = mysql_connect("176.32.230.251:3306", "cl57-lovissa", "Love041107");
         @mysql_select_db("cl57-lovissa") or die("Unable to select database");
 
