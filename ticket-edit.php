@@ -62,7 +62,10 @@
                     <input type="text" class="form-control" name="end_buyer">
                 </div>
                 <div class="checkbox">
-                    <label><input type="checkbox" value="student" name="is_student">Student Ticket ($5)</label>
+                    <label><input type="checkbox" value="student" name="is_student">Student Ticket</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="earlybird" name="is_earlybird">Early Bird Ticket?</label>
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-default">Submit</button>
