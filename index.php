@@ -20,13 +20,13 @@
             $gt_early = (int) mysql_result(mysql_query("SELECT COUNT(*) FROM Tickets WHERE ((is_Sold=TRUE) AND (is_Student_Price=TRUE) AND (is_earlybird=TRUE))"),0);
             $gt_early_mon = $gt_early * 3;
             $gt_notearly = (int) mysql_result(mysql_query("SELECT COUNT(*) FROM Tickets WHERE ((is_Sold=TRUE) AND (is_Student_Price=TRUE) AND (is_earlybird=FALSE))"),0);
-            $gt_notearly_mon = $gt_early * 5;
+            $gt_notearly_mon = $gt_notearly * 5;
             $gt_total = $gt_early + $gt_notearly;
             $gt_total_mon = $gt_early_mon + $gt_nonearly_mon;
             $nongt_early = (int) mysql_result(mysql_query("SELECT COUNT(*) FROM Tickets WHERE ((is_Sold=TRUE) AND (is_Student_Price=FALSE) AND (is_earlybird=TRUE))"),0);
             $nongt_early_mon = $gt_early * 10;
             $nongt_notearly = (int) mysql_result(mysql_query("SELECT COUNT(*) FROM Tickets WHERE (is_Sold=TRUE AND is_Student_Price=FALSE AND is_earlybird=FALSE)"),0);
-            $nongt_notearly_mon = $gt_early * 15;
+            $nongt_notearly_mon = $gt_notearly * 15;
             $nongt_total = $nongt_early + $nongt_notearly;
             $nongt_total_mon = $nongt_early_mon + $nongt_notearly_mon;
             $total_early = $gt_early + $nongt_early;
@@ -57,6 +57,7 @@
                 echo "<tr><td>$num</td><td>$answer[0]</td><td>$price</td><td>$answer[4]</td><td>$answer[5]</td><td>$answer[6]</td><td>$answer[7]</td><td width='100px'>$answer[8]</td></tr>";
                 $num++;
             }
+            echo '<h3 class="text-center">Tickets Sold</h3><br/>';
 
             $query = "SELECT COUNT(*) FROM Tickets WHERE (is_Sold=FALSE)";
             $query_result = mysql_query($query);
@@ -72,6 +73,7 @@
                 echo "<tr><td>$nums</td><td>$answer[0]</td><td>$answer[5]</td><td>$answer[6]</td></tr>";
                 $nums++;
             }
+            echo '<h3 class="text-center">Leftover Tickets</h3><br/>';
 
             ?>
         </div>
