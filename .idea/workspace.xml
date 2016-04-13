@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1806a511-1a5a-4bc4-9213-07291c30d94e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check-in-submit.php" afterPath="$PROJECT_DIR$/check-in-submit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check-in.php" afterPath="$PROJECT_DIR$/check-in.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay-submit.php" afterPath="$PROJECT_DIR$/pay-submit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pay.php" afterPath="$PROJECT_DIR$/pay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/volunteer-submit.php" afterPath="$PROJECT_DIR$/volunteer-submit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/volunteer.php" afterPath="$PROJECT_DIR$/volunteer.php" />
     </list>
     <ignored path="gatechICN16.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,18 +30,20 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
               <folding>
-                <marker date="1460509394000" expanded="true" signature="462:511" placeholder="SELECT COUNT... Tickets" />
-                <marker date="1460509394000" expanded="true" signature="649:691" placeholder="SELECT * FRO... Tickets" />
-                <marker date="1460509394000" expanded="true" signature="810:913" placeholder="SELECT COUNT... Tickets" />
-                <marker date="1460509394000" expanded="true" signature="1022:1126" placeholder="SELECT COUNT... Tickets" />
-                <marker date="1460509394000" expanded="true" signature="1235:1306" placeholder="SELECT COUNT... Tickets" />
-                <marker date="1460509394000" expanded="true" signature="1484:1588" placeholder="SELECT COUNT... Tickets" />
-                <marker date="1460509394000" expanded="true" signature="1707:1806" placeholder="SELECT COUNT... Tickets" />
-                <marker date="1460509394000" expanded="true" signature="4541:4591" placeholder="SELECT COUNT... Tickets" />
-                <marker date="1460509394000" expanded="true" signature="4729:4772" placeholder="SELECT * FRO... Tickets" />
+                <marker date="1460576045000" expanded="true" signature="462:511" placeholder="SELECT COUNT... Tickets" />
+                <marker date="1460576045000" expanded="true" signature="649:691" placeholder="SELECT * FRO... Tickets" />
+                <marker date="1460576045000" expanded="true" signature="810:934" placeholder="SELECT COUNT... Tickets" />
+                <marker date="1460576045000" expanded="true" signature="1043:1168" placeholder="SELECT COUNT... Tickets" />
+                <marker date="1460576045000" expanded="true" signature="1277:1348" placeholder="SELECT COUNT... Tickets" />
+                <marker date="1460576045000" expanded="true" signature="1526:1651" placeholder="SELECT COUNT... Tickets" />
+                <marker date="1460576045000" expanded="true" signature="1770:1890" placeholder="SELECT COUNT... Tickets" />
+                <marker date="1460576045000" expanded="true" signature="3222:3282" placeholder="SELECT COUNT... Tickets" />
+                <marker date="1460576045000" expanded="true" signature="3435:3497" placeholder="SELECT COUNT... Volunteer" />
+                <marker date="1460576045000" expanded="true" signature="5175:5225" placeholder="SELECT COUNT... Tickets" />
+                <marker date="1460576045000" expanded="true" signature="5363:5406" placeholder="SELECT * FRO... Tickets" />
               </folding>
             </state>
           </provider>
@@ -110,53 +111,52 @@
       <file leaf-file-name="check-in.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check-in.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-                <element signature="e#2982#3502#0#PHP" expanded="false" />
-                <marker date="1460092987000" expanded="true" signature="673:730" placeholder="SELECT Ticke... Tickets" />
-                <marker date="1460092987000" expanded="true" signature="1787:1844" placeholder="SELECT Ticke... Tickets" />
-                <marker date="1460092987000" expanded="true" signature="2901:2958" placeholder="SELECT Ticke... Tickets" />
-                <marker date="1460092987000" expanded="true" signature="4015:4072" placeholder="SELECT Ticke... Tickets" />
-                <marker date="1460092987000" expanded="true" signature="5129:5186" placeholder="SELECT Ticke... Tickets" />
+                <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+                <element signature="e#4077#4597#0#PHP" expanded="false" />
+                <marker date="1460576486000" expanded="true" signature="680:731" placeholder="SELECT Volun... Volunteer" />
+                <marker date="1460576486000" expanded="true" signature="1768:1825" placeholder="SELECT Ticke... Tickets" />
+                <marker date="1460576486000" expanded="true" signature="2882:2939" placeholder="SELECT Ticke... Tickets" />
+                <marker date="1460576486000" expanded="true" signature="3996:4053" placeholder="SELECT Ticke... Tickets" />
+                <marker date="1460576486000" expanded="true" signature="5110:5167" placeholder="SELECT Ticke... Tickets" />
+                <marker date="1460576486000" expanded="true" signature="6224:6281" placeholder="SELECT Ticke... Tickets" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="check-in-submit.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="check-in-submit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/check-in-submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            <state relative-caret-position="540">
+              <caret line="39" column="113" selection-start-line="39" selection-start-column="113" selection-end-line="39" selection-end-column="113" />
               <folding>
-                <marker date="1460505092000" expanded="true" signature="538:607" placeholder="UPDATE Ticke... " />
-                <marker date="1460505092000" expanded="true" signature="821:890" placeholder="UPDATE Ticke... " />
-                <marker date="1460505092000" expanded="true" signature="1104:1173" placeholder="UPDATE Ticke... " />
-                <marker date="1460505092000" expanded="true" signature="1387:1456" placeholder="UPDATE Ticke... " />
-                <marker date="1460505092000" expanded="true" signature="1670:1739" placeholder="UPDATE Ticke... " />
+                <marker date="1460576723000" expanded="true" signature="529:601" placeholder="UPDATE Volun... " />
+                <marker date="1460576723000" expanded="true" signature="529:602" placeholder="UPDATE Volun... " />
+                <marker date="1460576723000" expanded="true" signature="529:613" placeholder="UPDATE Volun... " />
+                <marker date="1460576723000" expanded="true" signature="804:873" placeholder="UPDATE Ticke... " />
+                <marker date="1460576723000" expanded="true" signature="804:886" placeholder="UPDATE Ticke... " />
+                <marker date="1460576723000" expanded="true" signature="1092:1161" placeholder="UPDATE Ticke... " />
+                <marker date="1460576723000" expanded="true" signature="1092:1174" placeholder="UPDATE Ticke... " />
+                <marker date="1460576723000" expanded="true" signature="1380:1449" placeholder="UPDATE Ticke... " />
+                <marker date="1460576723000" expanded="true" signature="1380:1462" placeholder="UPDATE Ticke... " />
+                <marker date="1460576723000" expanded="true" signature="1668:1737" placeholder="UPDATE Ticke... " />
+                <marker date="1460576723000" expanded="true" signature="1668:1750" placeholder="UPDATE Ticke... " />
+                <marker date="1460576723000" expanded="true" signature="1956:2025" placeholder="UPDATE Ticke... " />
+                <marker date="1460576723000" expanded="true" signature="1956:2038" placeholder="UPDATE Ticke... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ticket-edit-submit.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ticket-edit-submit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ticket-edit-submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding>
                 <marker date="1460511680000" expanded="true" signature="1094:1346" placeholder="UPDATE Ticke... " />
                 <marker date="1460511680000" expanded="true" signature="1412:1717" placeholder="UPDATE Ticke... " />
@@ -203,17 +203,17 @@
         <option value="$PROJECT_DIR$/getuser.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/style/styles.css" />
-        <option value="$PROJECT_DIR$/check-in.php" />
         <option value="$PROJECT_DIR$/ticket-edit.php" />
         <option value="$PROJECT_DIR$/guest-list.php" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/check-in-submit.php" />
         <option value="$PROJECT_DIR$/pay.php" />
         <option value="$PROJECT_DIR$/pay-submit.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/volunteer.php" />
         <option value="$PROJECT_DIR$/volunteer-submit.php" />
         <option value="$PROJECT_DIR$/ticket-edit-submit.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/check-in.php" />
+        <option value="$PROJECT_DIR$/check-in-submit.php" />
       </list>
     </option>
   </component>
@@ -228,7 +228,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
-    <option name="y" value="23" />
+    <option name="y" value="75" />
     <option name="width" value="1273" />
     <option name="height" value="773" />
   </component>
@@ -321,10 +321,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24092000" />
+    <option name="totallyTimeSpent" value="28063000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1273" height="773" extended-state="6" />
+    <frame x="-1" y="75" width="1273" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -412,11 +412,19 @@
         <state relative-caret-position="225">
           <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
-            <marker date="1460505092000" expanded="true" signature="538:607" placeholder="UPDATE Ticke... " />
-            <marker date="1460505092000" expanded="true" signature="821:890" placeholder="UPDATE Ticke... " />
-            <marker date="1460505092000" expanded="true" signature="1104:1173" placeholder="UPDATE Ticke... " />
-            <marker date="1460505092000" expanded="true" signature="1387:1456" placeholder="UPDATE Ticke... " />
-            <marker date="1460505092000" expanded="true" signature="1670:1739" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="529:601" placeholder="UPDATE Volun... " />
+            <marker date="1460576723000" expanded="true" signature="529:602" placeholder="UPDATE Volun... " />
+            <marker date="1460576723000" expanded="true" signature="529:613" placeholder="UPDATE Volun... " />
+            <marker date="1460576723000" expanded="true" signature="804:873" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="804:886" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1092:1161" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1092:1174" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1380:1449" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1380:1462" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1668:1737" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1668:1750" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1956:2025" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1956:2038" placeholder="UPDATE Ticke... " />
           </folding>
         </state>
       </provider>
@@ -426,14 +434,15 @@
         <state relative-caret-position="105">
           <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding>
-            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="e#2982#3502#0#PHP" expanded="false" />
-            <marker date="1460092987000" expanded="true" signature="673:730" placeholder="SELECT Ticke... Tickets" />
-            <marker date="1460092987000" expanded="true" signature="1787:1844" placeholder="SELECT Ticke... Tickets" />
-            <marker date="1460092987000" expanded="true" signature="2901:2958" placeholder="SELECT Ticke... Tickets" />
-            <marker date="1460092987000" expanded="true" signature="4015:4072" placeholder="SELECT Ticke... Tickets" />
-            <marker date="1460092987000" expanded="true" signature="5129:5186" placeholder="SELECT Ticke... Tickets" />
+            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="e#4077#4597#0#PHP" expanded="false" />
+            <marker date="1460576486000" expanded="true" signature="680:731" placeholder="SELECT Volun... Volunteer" />
+            <marker date="1460576486000" expanded="true" signature="1768:1825" placeholder="SELECT Ticke... Tickets" />
+            <marker date="1460576486000" expanded="true" signature="2882:2939" placeholder="SELECT Ticke... Tickets" />
+            <marker date="1460576486000" expanded="true" signature="3996:4053" placeholder="SELECT Ticke... Tickets" />
+            <marker date="1460576486000" expanded="true" signature="5110:5167" placeholder="SELECT Ticke... Tickets" />
+            <marker date="1460576486000" expanded="true" signature="6224:6281" placeholder="SELECT Ticke... Tickets" />
           </folding>
         </state>
       </provider>
@@ -466,15 +475,17 @@
         <state relative-caret-position="195">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="72" />
           <folding>
-            <marker date="1460509394000" expanded="true" signature="462:511" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="649:691" placeholder="SELECT * FRO... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="810:913" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="1022:1126" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="1235:1306" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="1484:1588" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="1707:1806" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="4541:4591" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="4729:4772" placeholder="SELECT * FRO... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="462:511" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="649:691" placeholder="SELECT * FRO... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="810:934" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="1043:1168" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="1277:1348" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="1526:1651" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="1770:1890" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="3222:3282" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="3435:3497" placeholder="SELECT COUNT... Volunteer" />
+            <marker date="1460576045000" expanded="true" signature="5175:5225" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="5363:5406" placeholder="SELECT * FRO... Tickets" />
           </folding>
         </state>
       </provider>
@@ -484,15 +495,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1460509394000" expanded="true" signature="462:511" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="649:691" placeholder="SELECT * FRO... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="810:913" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="1022:1126" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="1235:1306" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="1484:1588" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="1707:1806" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="4541:4591" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="4729:4772" placeholder="SELECT * FRO... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="462:511" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="649:691" placeholder="SELECT * FRO... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="810:934" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="1043:1168" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="1277:1348" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="1526:1651" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="1770:1890" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="3222:3282" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="3435:3497" placeholder="SELECT COUNT... Volunteer" />
+            <marker date="1460576045000" expanded="true" signature="5175:5225" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="5363:5406" placeholder="SELECT * FRO... Tickets" />
           </folding>
         </state>
       </provider>
@@ -537,37 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check-in.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-          <folding>
-            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="e#2982#3502#0#PHP" expanded="false" />
-            <marker date="1460092987000" expanded="true" signature="673:730" placeholder="SELECT Ticke... Tickets" />
-            <marker date="1460092987000" expanded="true" signature="1787:1844" placeholder="SELECT Ticke... Tickets" />
-            <marker date="1460092987000" expanded="true" signature="2901:2958" placeholder="SELECT Ticke... Tickets" />
-            <marker date="1460092987000" expanded="true" signature="4015:4072" placeholder="SELECT Ticke... Tickets" />
-            <marker date="1460092987000" expanded="true" signature="5129:5186" placeholder="SELECT Ticke... Tickets" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check-in-submit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding>
-            <marker date="1460505092000" expanded="true" signature="538:607" placeholder="UPDATE Ticke... " />
-            <marker date="1460505092000" expanded="true" signature="821:890" placeholder="UPDATE Ticke... " />
-            <marker date="1460505092000" expanded="true" signature="1104:1173" placeholder="UPDATE Ticke... " />
-            <marker date="1460505092000" expanded="true" signature="1387:1456" placeholder="UPDATE Ticke... " />
-            <marker date="1460505092000" expanded="true" signature="1670:1739" placeholder="UPDATE Ticke... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pay.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -595,24 +577,6 @@
             <marker date="1460506963000" expanded="true" signature="1024:1076" placeholder="UPDATE Ticke... " />
             <marker date="1460506963000" expanded="true" signature="1295:1347" placeholder="UPDATE Ticke... " />
             <marker date="1460506963000" expanded="true" signature="1566:1618" placeholder="UPDATE Ticke... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <marker date="1460509394000" expanded="true" signature="462:511" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="649:691" placeholder="SELECT * FRO... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="810:913" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="1022:1126" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="1235:1306" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="1484:1588" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="1707:1806" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="4541:4591" placeholder="SELECT COUNT... Tickets" />
-            <marker date="1460509394000" expanded="true" signature="4729:4772" placeholder="SELECT * FRO... Tickets" />
           </folding>
         </state>
       </provider>
@@ -656,11 +620,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ticket-edit-submit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <marker date="1460511680000" expanded="true" signature="1094:1346" placeholder="UPDATE Ticke... " />
             <marker date="1460511680000" expanded="true" signature="1412:1717" placeholder="UPDATE Ticke... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="367" column="52" selection-start-line="367" selection-start-column="52" selection-end-line="367" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+          <folding>
+            <marker date="1460576045000" expanded="true" signature="462:511" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="649:691" placeholder="SELECT * FRO... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="810:934" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="1043:1168" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="1277:1348" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="1526:1651" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="1770:1890" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="3222:3282" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="3435:3497" placeholder="SELECT COUNT... Volunteer" />
+            <marker date="1460576045000" expanded="true" signature="5175:5225" placeholder="SELECT COUNT... Tickets" />
+            <marker date="1460576045000" expanded="true" signature="5363:5406" placeholder="SELECT * FRO... Tickets" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check-in.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="e#4077#4597#0#PHP" expanded="false" />
+            <marker date="1460576486000" expanded="true" signature="680:731" placeholder="SELECT Volun... Volunteer" />
+            <marker date="1460576486000" expanded="true" signature="1768:1825" placeholder="SELECT Ticke... Tickets" />
+            <marker date="1460576486000" expanded="true" signature="2882:2939" placeholder="SELECT Ticke... Tickets" />
+            <marker date="1460576486000" expanded="true" signature="3996:4053" placeholder="SELECT Ticke... Tickets" />
+            <marker date="1460576486000" expanded="true" signature="5110:5167" placeholder="SELECT Ticke... Tickets" />
+            <marker date="1460576486000" expanded="true" signature="6224:6281" placeholder="SELECT Ticke... Tickets" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check-in-submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="113" selection-start-line="39" selection-start-column="113" selection-end-line="39" selection-end-column="113" />
+          <folding>
+            <marker date="1460576723000" expanded="true" signature="529:601" placeholder="UPDATE Volun... " />
+            <marker date="1460576723000" expanded="true" signature="529:602" placeholder="UPDATE Volun... " />
+            <marker date="1460576723000" expanded="true" signature="529:613" placeholder="UPDATE Volun... " />
+            <marker date="1460576723000" expanded="true" signature="804:873" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="804:886" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1092:1161" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1092:1174" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1380:1449" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1380:1462" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1668:1737" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1668:1750" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1956:2025" placeholder="UPDATE Ticke... " />
+            <marker date="1460576723000" expanded="true" signature="1956:2038" placeholder="UPDATE Ticke... " />
           </folding>
         </state>
       </provider>

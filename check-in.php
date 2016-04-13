@@ -6,6 +6,27 @@
         <div id="get-verifier-form" class="text-left">
             <form action="check-in-submit.php" method="post">
                 <div class="form-group">
+                    <label for="volunteer">Volunteer</label>
+                    <?php
+                    // connect to db
+                    $connect = mysql_connect("176.32.230.251:3306", "cl57-lovissa", "Love041107");
+                    @mysql_select_db("cl57-lovissa") or die("Unable to select database");
+
+                    $sql = mysql_query("SELECT Volunteer_Name, Check_In_Time FROM Volunteer");
+                    if (mysql_num_rows($sql)) {
+                        $select = '<select name="volunteer">';
+                        $select .= '<option value="SELECT">SELECT</option>';
+                        while ($rs = mysql_fetch_array($sql)) {
+                            if ($rs['Check_In_Time']=='') {
+                                $select .= '<option value="' . $rs['Volunteer_Name'] . '">' . $rs['Volunteer_Name'] . '</option>';
+                            }
+                        }
+                    }
+                    $select .= '</select>';
+                    echo $select;
+                    ?>
+                </div>
+                <div class="form-group">
                     <label for="id">Ticket ID</label>
                     <?php
                     // connect to db
