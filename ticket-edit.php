@@ -48,6 +48,9 @@
                 <div class="checkbox">
                     <label><input type="checkbox" value="issold" name="is_sold">Ticket Sold?</label>
                 </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="isguest" name="is_guest">Guest?</label>
+                </div>
                 <h4>If ticket is sold, please fill the information below:</h4>
                 <div class="form-group">
                     <label for="admin_name">Admin username *</label>
@@ -66,6 +69,9 @@
                 </div>
                 <div class="checkbox">
                     <label><input type="checkbox" value="earlybird" name="is_earlybird">Early Bird Ticket?</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="paid" name="is_paid">Paid?</label>
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-default">Submit</button>

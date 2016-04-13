@@ -24,9 +24,9 @@
             $gt_total = $gt_early + $gt_notearly;
             $gt_total_mon = $gt_early_mon + $gt_nonearly_mon;
             $nongt_early = (int) mysql_result(mysql_query("SELECT COUNT(*) FROM Tickets WHERE ((is_Sold=TRUE) AND (is_Student_Price=FALSE) AND (is_earlybird=TRUE))"),0);
-            $nongt_early_mon = $gt_early * 10;
+            $nongt_early_mon = $nongt_early * 10;
             $nongt_notearly = (int) mysql_result(mysql_query("SELECT COUNT(*) FROM Tickets WHERE (is_Sold=TRUE AND is_Student_Price=FALSE AND is_earlybird=FALSE)"),0);
-            $nongt_notearly_mon = $gt_notearly * 15;
+            $nongt_notearly_mon = $nongt_notearly * 15;
             $nongt_total = $nongt_early + $nongt_notearly;
             $nongt_total_mon = $nongt_early_mon + $nongt_notearly_mon;
             $total_early = $gt_early + $nongt_early;
@@ -50,11 +50,12 @@
             echo '<h3 class="text-center">Money</h3><br/>';
 
             echo '<table width="90%" class="table table-striped">';
-            echo "<tr><th>Number</th><th>Sold Ticket Number</th><th>Price</th><th>Paid to Admin</th><th>Sold By</th><th>End Buyer</th><th>Time Updated</th><th>Check-In Time</th></tr>";
+            echo "<tr><th>Number</th><th>Sold Ticket Number</th><th>Price</th><th>Paid?</th><th>Paid to Admin</th><th>Sold By</th><th>End Buyer</th><th>Time Updated</th><th>Check-In Time</th></tr>";
             $num = 1;
             while ($answer = mysql_fetch_row($data_query_result)) {
                 $price = ($answer[2] == TRUE) ? ($answer[3] == TRUE ? 3 : 5) : ($answer[3] == TRUE ? 10 : 15);
-                echo "<tr><td>$num</td><td>$answer[0]</td><td>$price</td><td>$answer[4]</td><td>$answer[5]</td><td>$answer[6]</td><td>$answer[7]</td><td width='100px'>$answer[8]</td></tr>";
+                $paid = ($answer[4] == TRUE) ? "Yes" : "No";
+                echo "<tr><td>$num</td><td>$answer[0]</td><td>$price</td><td>$paid</td><td>$answer[5]</td><td>$answer[6]</td><td>$answer[7]</td><td width='100px'>$answer[8]</td><td>$answer[9]</td></tr>";
                 $num++;
             }
             echo '<h3 class="text-center">Tickets Sold</h3><br/>';
