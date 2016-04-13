@@ -49,7 +49,7 @@
                 $num = 0;
                 while($each = mysql_fetch_row($query)) {
                     $num++;
-                    echo "<tr><td>$num</td><td>$each[1]</td><td>$each[2]</td></tr>";
+                    echo "<tr><td>$num</td><td>$each[0]</td><td>$each[1]</td></tr>";
                 }
                 ?>
             </form>

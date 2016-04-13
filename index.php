@@ -21,6 +21,7 @@
             $gt_early_mon = $gt_early * 3;
             $gt_notearly = (int) mysql_result(mysql_query("SELECT COUNT(*) FROM Tickets WHERE ((is_Sold=TRUE) AND (is_Student_Price=TRUE) AND (is_earlybird=FALSE))"),0);
             $gt_notearly_mon = $gt_notearly * 5;
+            $guest = (int) mysql_result(mysql_query("SELECT COUNT(*) FROM Tickets WHERE ((is_Sold=TRUE) AND (is_guest=TRUE))"),0);
             $gt_total = $gt_early + $gt_notearly;
             $gt_total_mon = $gt_early_mon + $gt_nonearly_mon;
             $nongt_early = (int) mysql_result(mysql_query("SELECT COUNT(*) FROM Tickets WHERE ((is_Sold=TRUE) AND (is_Student_Price=FALSE) AND (is_earlybird=TRUE))"),0);
@@ -33,13 +34,14 @@
             $total_early_mon = $gt_early_mon + $nongt_early_mon;
             $total_notearly = $gt_notearly + $nongt_notearly;
             $total_notearly_mon = $gt_notearly_mon + $nongt_notearly_mon;
-            $total = $gt_total + $nongt_total;
+            $total = $gt_total + $nongt_total + $guest;
             $total_mon = $gt_total_mon + $nongt_total_mon;
             echo '<table width="50%" class="table table-striped">';
-            echo "<tr><th>Details</th><th>Early Bird</th><th>On the Door</th><th>Total Tickets</th></tr>";
-            echo "<tr><td>GT Tickets</td><td>$gt_early</td><td>$gt_notearly</td><td>$gt_total</td></tr>";
-            echo "<tr><td>Non-GT Tickets</td><td>$nongt_early</td><td>$nongt_notearly</td><td>$nongt_total</td></tr>";
-            echo "<tr><td>TOTALS</td><td>$total_early</td><td>$total_notearly</td><td>$total</td></tr>";
+            echo "<tr><th>Details</th><th>Early Bird</th><th>On the Door</th><th>Guest</th><th>Total Tickets</th></tr>";
+            echo "<tr><td>GT Tickets</td><td>$gt_early</td><td>$gt_notearly</td><td> </td><td>$gt_total</td></tr>";
+            echo "<tr><td>Non-GT Tickets</td><td>$nongt_early</td><td>$nongt_notearly</td><td> </td><td>$nongt_total</td></tr>";
+            echo "<tr><td>Guests</td><td> </td><td> </td><td>$guest</td><td>$guest</td></tr>";
+            echo "<tr><td>TOTALS</td><td>$total_early</td><td>$total_notearly</td><td>$guest</td><td>$total</td></tr>";
 
             echo '<h3 class="text-center">Summary</h3><br/>';
             echo '<table width="50%" class="table table-striped">';
@@ -71,7 +73,7 @@
             echo '<tr><th>Number</th><th>Leftover Ticket Number</th><th>Currently is Being Hold By</th><th>Details</th></tr>';
             $nums = 1;
             while ($answer = mysql_fetch_row($data_query_result)) {
-                echo "<tr><td>$nums</td><td>$answer[0]</td><td>$answer[5]</td><td>$answer[6]</td></tr>";
+                echo "<tr><td>$nums</td><td>$answer[0]</td><td>$answer[6]</td><td>$answer[7]</td></tr>";
                 $nums++;
             }
             echo '<h3 class="text-center">Leftover Tickets</h3><br/>';

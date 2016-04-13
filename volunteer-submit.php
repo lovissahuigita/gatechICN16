@@ -9,7 +9,6 @@
 
         $is_delete = isset($_POST['isdelete'])==1 ? 1 : 0;
         $name = $_POST['volunteer-name'];
-        $num = (int) $_POST['volunteer-name'];
         $role = $_POST['role'];
 
         $admin = $_POST['admin_name'];
@@ -25,7 +24,7 @@
                 echo 'The volunteer name cannot be empty';
             } else {
                 if ($is_delete==1) {
-                    $sql = mysql_query("DELETE FROM Volunteer WHERE Volunteer_Number=$num");
+                    $sql = mysql_query("DELETE FROM Volunteer WHERE Volunteer_Name='$name'");
                     echo 'Volunteer number' . $name . ' has been deleted!';
                 } else {
                     $sql = mysql_query("INSERT INTO Volunteer(Volunteer_Name, Role) VALUES ('$name', '$role')");
